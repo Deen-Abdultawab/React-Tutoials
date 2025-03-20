@@ -18,6 +18,10 @@
   --breakpoint-mob: 800px;
 }
 
+@layer components {
+ 
+}
+
 
 html {
   font-size: 100%;

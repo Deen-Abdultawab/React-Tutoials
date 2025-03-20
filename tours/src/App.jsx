@@ -51,7 +51,7 @@ function App () {
     } else {
       return (
         <ToursLayout>
-           <div className="grid grid-cols-3 gap-[2rem]">
+           <div className="grid grid-cols-3 max-tab:grid-cols-2 max-mob:grid-cols-1 gap-[2rem]">
             {tours.map((tour) => {
               return (
                <Tours tour={tour} key={tour.id} removeTour={removeTour}/>
